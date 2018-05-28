@@ -1,4 +1,4 @@
-FROM golang:stretch AS build
+FROM golang:stretch
 
 ENV GOBIN /go/bin
 ENV WKHTMLTOPDF_PATH /opt/wkhtmltox/bin
